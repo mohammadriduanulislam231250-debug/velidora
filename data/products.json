@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Leather Jacket",
+      "price": 249.99,
+      "oldPrice": 349.99,
+      "image": "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "fashion",
+      "rating": 4.8,
+      "ratingCount": 124,
+      "tag": "new",
+      "description": "Luxurious premium leather jacket with a modern cut and exceptional craftsmanship. Features multiple pockets and a soft inner lining for comfort."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Pro",
+      "price": 199.99,
+      "oldPrice": 249.99,
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "electronics",
+      "rating": 4.9,
+      "ratingCount": 286,
+      "tag": "sale",
+      "description": "Feature-packed smartwatch with health monitoring, notifications, and a 3-day battery life. Water-resistant and comes with multiple band options."
+    },
+    {
+      "id": 3,
+      "name": "Minimalist Table Lamp",
+      "price": 89.99,
+      "oldPrice": null,
+      "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "home",
+      "rating": 4.6,
+      "ratingCount": 78,
+      "tag": null,
+      "description": "Elegant minimalist table lamp with adjustable brightness. Perfect for your bedside table or desk, providing a warm, comfortable light."
+    },
+    {
+      "id": 4,
+      "name": "Organic Face Serum",
+      "price": 59.99,
+      "oldPrice": 79.99,
+      "image": "https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "beauty",
+      "rating": 4.7,
+      "ratingCount": 193,
+      "tag": "sale",
+      "description": "All-natural face serum with vitamin C and hyaluronic acid. Brightens skin, reduces fine lines, and provides deep hydration."
+    },
+    {
+      "id": 5,
+      "name": "Designer Sunglasses",
+      "price": 129.99,
+      "oldPrice": null,
+      "image": "https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "fashion",
+      "rating": 4.5,
+      "ratingCount": 67,
+      "tag": "new",
+      "description": "Stylish designer sunglasses with UV protection. These lightweight frames feature polarized lenses and come with a protective case."
+    },
+    {
+      "id": 6,
+      "name": "Wireless Earbuds",
+      "price": 149.99,
+      "oldPrice": 189.99,
+      "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "electronics",
+      "rating": 4.8,
+      "ratingCount": 215,
+      "tag": "sale",
+      "description": "High-fidelity wireless earbuds with active noise cancellation and a comfortable fit. Includes multiple ear tip sizes and a charging case."
+    },
+    {
+      "id": 7,
+      "name": "Scented Candle Set",
+      "price": 39.99,
+      "oldPrice": null,
+      "image": "https://m.media-amazon.com/images/I/71TXa1JvjQL._AC_UF1000,1000_QL80_.jpg",
+      "category": "home",
+      "rating": 4.7,
+      "ratingCount": 52,
+      "tag": null,
+      "description": "Set of three premium scented candles made from natural soy wax. Long-burning with soothing fragrances to create a relaxing atmosphere."
+    },
+    {
+      "id": 8,
+      "name": "Premium Skincare Kit",
+      "price": 99.99,
+      "oldPrice": 129.99,
+      "image": "https://florallaus.com/cdn/shop/files/Floralla_PRO_Skincare_Set.jpg?v=1726712367&width=1080",
+      "category": "beauty",
+      "rating": 4.9,
+      "ratingCount": 108,
+      "tag": "new",
+      "description": "Complete skincare set with cleanser, toner, moisturizer, and serum. Formulated for all skin types with natural, gentle ingredients."
+    },
+    {
+      "id": 9,
+      "name": "Casual Sneakers",
+      "price": 79.99,
+      "oldPrice": 99.99,
+      "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "fashion",
+      "rating": 4.6,
+      "ratingCount": 142,
+      "tag": "sale",
+      "description": "Comfortable casual sneakers with memory foam insoles and breathable fabric. Perfect for everyday wear with excellent arch support."
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Speaker",
+      "price": 69.99,
+      "oldPrice": null,
+      "image": "https://images.pexels.com/photos/1706694/pexels-photo-1706694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "electronics",
+      "rating": 4.5,
+      "ratingCount": 87,
+      "tag": null,
+      "description": "Portable Bluetooth speaker with rich sound and deep bass. Waterproof design with 12-hour battery life, perfect for outdoor use."
+    },
+    {
+      "id": 11,
+      "name": "Decorative Throw Pillows",
+      "price": 49.99,
+      "oldPrice": 69.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVSfxj1gPFdXXvozbffhJaa6QIgvyWdfyL2g&s",
+      "category": "home",
+      "rating": 4.7,
+      "ratingCount": 63,
+      "tag": "sale",
+      "description": "Set of two elegant throw pillows with removable covers. Made from high-quality fabric with a hidden zipper for easy cleaning."
+    },
+    {
+      "id": 12,
+      "name": "Natural Hair Care Set",
+      "price": 69.99,
+      "oldPrice": null,
+      "image": "https://images.pexels.com/photos/3735634/pexels-photo-3735634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "category": "beauty",
+      "rating": 4.8,
+      "ratingCount": 91,
+      "tag": "new",
+      "description": "Complete hair care set with shampoo, conditioner, and hair mask. Made with organic ingredients to nourish and strengthen all hair types."
+    }
+  ]
+}

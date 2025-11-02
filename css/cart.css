@@ -1,0 +1,219 @@
+/* Cart Panel */
+.cart-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: var(--color-light);
+  box-shadow: var(--shadow-xl);
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform var(--transition-medium);
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-panel.active {
+  transform: translateX(0);
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-4);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.cart-header h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.close-cart {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-gray-700);
+  transition: color var(--transition-fast);
+}
+
+.close-cart:hover {
+  color: var(--color-primary);
+}
+
+.cart-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-4);
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+  padding-bottom: var(--spacing-4);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--border-radius-sm);
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-name {
+  font-weight: 500;
+  margin-bottom: var(--spacing-1);
+}
+
+.cart-item-price {
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: var(--spacing-2);
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.quantity-btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-gray-200);
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.quantity-btn:hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.quantity-input {
+  width: 40px;
+  height: 28px;
+  text-align: center;
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--border-radius-sm);
+}
+
+.cart-item-remove {
+  color: var(--color-gray-600);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.cart-item-remove:hover {
+  color: var(--color-error);
+}
+
+.cart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: var(--spacing-4);
+  color: var(--color-gray-500);
+}
+
+.cart-empty svg {
+  margin-bottom: var(--spacing-4);
+  opacity: 0.5;
+}
+
+.cart-empty p {
+  margin-bottom: var(--spacing-5);
+  font-size: 1.1rem;
+}
+
+.cart-footer {
+  padding: var(--spacing-4);
+  border-top: 1px solid var(--color-gray-200);
+  background-color: var(--color-gray-100);
+}
+
+.coupon-section {
+  display: flex;
+  gap: var(--spacing-2);
+  margin-bottom: var(--spacing-4);
+}
+
+.coupon-section input {
+  flex: 1;
+  padding: var(--spacing-2) var(--spacing-3);
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--border-radius-sm);
+}
+
+.cart-totals {
+  margin-bottom: var(--spacing-4);
+}
+
+.cart-total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-2);
+  font-size: 0.95rem;
+}
+
+.cart-total-row.total-row {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: var(--spacing-3);
+  padding-top: var(--spacing-3);
+  border-top: 1px solid var(--color-gray-300);
+}
+
+.discount-row {
+  color: var(--color-success);
+  display: none;
+}
+
+.discount-row.active {
+  display: flex;
+}
+
+.shipping-address {
+  margin-bottom: var(--spacing-4);
+  padding: var(--spacing-3);
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-sm);
+  font-size: 0.9rem;
+  border: 1px solid var(--color-gray-300);
+}
+
+.shipping-address p {
+  margin: 0;
+}
+
+.shipping-address span {
+  font-weight: 500;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: var(--spacing-3);
+  font-weight: 600;
+}
+
+.cicon{
+  width: 1.5rem;
+  height: 1.5rem;
+}
